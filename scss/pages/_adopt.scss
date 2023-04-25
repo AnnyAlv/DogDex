@@ -1,0 +1,18 @@
+/* ============================ADOPT======================= */
+/* ============ADOPT MOBILE============ */
+.img-adopt {
+    border-radius: 85px;
+    border: solid 5px $color-primary;
+}
+
+.conteiner-adopt {
+    margin-top: 2em;
+}
+
+/* ============ADOPT TABLET============ */
+@media (min-width: 600px) {
+    .title-home {
+        padding: 3em;
+        font-size: 1.5em;
+    }
+}

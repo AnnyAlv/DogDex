@@ -1,3 +1,5 @@
+/* ============================VARIABLES======================= */
+/* ============================PAGE RESET======================= */
 * {
   padding: 0;
   margin: 0;
@@ -14,7 +16,44 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* ============================VARIABLES======================= */
+/* ============FOOTER============ */
+/* ============FOOTER MOBILE============ */
+.ig {
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  background-color: #95b3ca;
+  color: #ffffff;
+}
+
+.h2-footer {
+  margin-top: 10px;
+  padding-top: 10px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 1.5em;
+}
+
+.link-footer {
+  padding: 20px;
+}
+
+.conteiner-footer {
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+/* ============FOOTER DESKTOP============ */
+@media (min-width: 1025px) {
+  .ig {
+    width: 60px;
+    height: 60px;
+  }
+}
 /* ============================HEADER======================= */
 /* ============HEADER MOBILE============ */
 header {
@@ -190,42 +229,69 @@ article .conteiner-option {
     border-radius: 8px;
   }
 }
-/* ============FOOTER============ */
-/* ============FOOTER MOBILE============ */
-.ig {
-  width: 50px;
-  height: 50px;
+/* ============================ADOPT======================= */
+/* ============ADOPT MOBILE============ */
+.img-adopt {
+  border-radius: 85px;
+  border: solid 5px #c9d8e5;
 }
 
-footer {
-  background-color: #95b3ca;
-  color: #ffffff;
+.conteiner-adopt {
+  margin-top: 2em;
 }
 
-.h2-footer {
-  margin-top: 10px;
-  padding-top: 10px;
-  text-align: center;
-  letter-spacing: 3px;
-  font-size: 1.5em;
+/* ============ADOPT TABLET============ */
+@media (min-width: 600px) {
+  .title-home {
+    padding: 3em;
+    font-size: 1.5em;
+  }
+}
+/* ============================US======================= */
+/* ============US MOBILE============ */
+.articule-box {
+  display: grid;
+}
+.articule-paragraph {
+  text-align: justify;
+  margin: 1em;
+  padding: 1.5em;
+  background-color: #c9d8e5;
+  border-radius: 2em;
 }
 
-.link-footer {
-  padding: 20px;
+.us-photo {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  border: solid 5px #c9d8e5;
 }
 
-.conteiner-footer {
+.us-img {
   display: flex;
-  padding: 10px;
-  margin-top: 10px;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
 }
 
-/* ============FOOTER DESKTOP============ */
+/* ============US TABLET============ */
+@media (min-width: 600px) {
+  .articule-paragraph {
+    max-width: 700px;
+  }
+  .us-photo {
+    width: 500px;
+  }
+}
+/* ============US DESKTOP============ */
 @media (min-width: 1025px) {
-  .ig {
-    width: 60px;
-    height: 60px;
+  .articule-paragraph {
+    max-width: 1200px;
+  }
+  .us-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
   }
 }
 /* ============================CONTACT======================= */
@@ -293,53 +359,6 @@ footer {
 @media (min-width: 600px) {
   .contact-main-box {
     max-width: 900px;
-  }
-}
-/* ============================US======================= */
-/* ============US MOBILE============ */
-.articule-box {
-  display: grid;
-}
-.articule-paragraph {
-  text-align: justify;
-  margin: 1em;
-  padding: 1.5em;
-  background-color: #c9d8e5;
-  border-radius: 2em;
-}
-
-.us-photo {
-  width: 350px;
-  height: 350px;
-  border-radius: 10px;
-  border: solid 5px #c9d8e5;
-}
-
-.us-img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1em;
-}
-
-/* ============US TABLET============ */
-@media (min-width: 600px) {
-  .articule-paragraph {
-    max-width: 700px;
-  }
-  .us-photo {
-    width: 500px;
-  }
-}
-/* ============US DESKTOP============ */
-@media (min-width: 1025px) {
-  .articule-paragraph {
-    max-width: 1200px;
-  }
-  .us-img {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: auto;
   }
 }
 /* ============================DOGS======================= */
@@ -419,24 +438,6 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-  }
-}
-/* ============================ADOPT======================= */
-/* ============ADOPT MOBILE============ */
-.img-adopt {
-  border-radius: 85px;
-  border: solid 5px #c9d8e5;
-}
-
-.conteiner-adopt {
-  margin-top: 2em;
-}
-
-/* ============ADOPT TABLET============ */
-@media (min-width: 600px) {
-  .title-home {
-    padding: 3em;
-    font-size: 1.5em;
   }
 }
 

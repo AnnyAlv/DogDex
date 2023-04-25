@@ -1,0 +1,67 @@
+/* ============================HEADER======================= */
+/* ============HEADER MOBILE============ */
+header {
+    background-color: #507394;
+    padding: 1em;
+    color: $font-color;
+    font-size: 1em;
+
+    .huella {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .conteiner-title {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 1em;
+    }
+
+    .header-nav {
+        font-size: 1.2em;
+        gap: 2em;
+        text-align: center;
+        padding: 5px;
+        word-spacing: 1em;
+
+        &-link {
+            color: $font-color;
+        }
+    }
+}
+
+/* ============HEADER TABLET============ */
+@media (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .conteiner-title {
+            display: flex;
+            gap: 1em;
+        }
+
+        .huella {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        .header-nav-link {
+            padding: 0.1em;
+        }
+    }
+}
+
+/* ============HEADER DESKTOP============ */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .header-nav {
+        padding: 0.5em;
+
+        &-link:hover {
+            background-color: #61cfe7;
+            border-radius: 2px;
+        }
+    }
+}

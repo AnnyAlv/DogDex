@@ -1,0 +1,74 @@
+/* ============================CONTACT======================= */
+/* ============CONTACT TABLET============ */
+.contact-main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5em;
+
+    &-text {
+        background-color: $color-primary;
+        padding: 1em;
+        border-radius: 8px;
+    }
+
+    &-box {
+        background-color: $color-primary;
+        border: solid 5px #95b3ca;
+        border-radius: 4px;
+        width: 80%;
+        text-align: center;
+        padding: 12px 20px;
+        color: black;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        display: inline-block;
+        border: 1px solid #61cfe7;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        display: inline-block;
+        border: 1px solid #61cfe7;
+        border-radius: 4px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .btn-acept {
+        text-align: center;
+        background-color: #61cfe7;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+/* ============CONTACT TABLET============ */
+@media (min-width:600px) {
+    .contact-main-text {
+        text-align: center;
+        max-width: 800px;
+    }
+}
+
+/* ============CONTACT DESKTOP============ */
+@media (min-width:600px) {
+    .contact-main-box {
+        max-width: 900px;
+    }
+
+}

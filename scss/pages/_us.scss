@@ -1,0 +1,59 @@
+/* ============================US======================= */
+/* ============US MOBILE============ */
+.articule {
+
+    &-box {
+        display: grid;
+    }
+
+    &-paragraph {
+        text-align: justify;
+        margin: 1em;
+        padding: 1.5em;
+        background-color: $color-primary;
+        border-radius: 2em;
+    }
+
+}
+
+.us-photo {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    border: solid 5px $color-primary;
+}
+
+.us-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+/* ============US TABLET============ */
+@media (min-width: 600px) {
+
+    .articule-paragraph {
+        max-width: 700px;
+    }
+
+    .us-photo {
+        width: 500px;
+    }
+}
+
+
+/* ============US DESKTOP============ */
+@media (min-width: 1025px) {
+    .articule-paragraph {
+        max-width: 1200px;
+
+    }
+
+    .us-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+
+    }
+}
