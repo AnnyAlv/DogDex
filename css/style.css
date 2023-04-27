@@ -112,6 +112,33 @@ header .header-nav-link {
     border-radius: 2px;
   }
 }
+.h2-main {
+  border: solid #c9d8e5;
+}
+
+.paragraph-articule,
+.articule-paragraph {
+  box-shadow: 5px 5px 20px white;
+}
+
+.h2-main {
+  transition-duration: 1s;
+}
+
+.ig,
+.huella,
+.img-adopt {
+  transition-duration: 1s;
+  transform: rotate(360deg);
+}
+
+.card-dog {
+  transition: 0.3s;
+}
+.card-dog:hover {
+  transform: scale(1.05, 1.05);
+}
+
 /* ============================INDEX======================= */
 /* ============INDEX MOBILE============ */
 .h2-main {
@@ -134,6 +161,7 @@ header .header-nav-link {
   padding: 1em;
   font-size: 1.5em;
   text-align: center;
+  text-decoration: underline #c9d8e5;
 }
 
 .conteiner-span {

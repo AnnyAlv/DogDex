@@ -1,0 +1,20 @@
+.h2-main {
+    transition-duration: 1s;
+
+}
+
+.ig,
+.huella,
+.img-adopt {
+    transition-duration: 1s;
+    transform: rotate(360deg);
+
+}
+
+.card-dog {
+    transition: 0.3s;
+
+    &:hover {
+        transform: scale(1.05, 1.05);
+    }
+}
