@@ -10,7 +10,7 @@
 }
 
 /* ============ADOPT TABLET============ */
-@media (min-width: 600px) {
+@media (min-width: $MQ-medium) {
     .title-home {
         padding: 3em;
         font-size: 1.5em;

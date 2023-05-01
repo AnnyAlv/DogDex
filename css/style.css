@@ -116,6 +116,15 @@ header .header-nav-link {
   border: solid #c9d8e5;
 }
 
+.h2-main {
+  background-color: #95b3ca;
+  text-align: center;
+  color: #000000;
+  margin-top: 10px;
+  padding: 10px;
+  letter-spacing: 3px;
+}
+
 .paragraph-articule,
 .articule-paragraph {
   box-shadow: 5px 5px 20px white;
@@ -140,17 +149,6 @@ header .header-nav-link {
 }
 
 /* ============================INDEX======================= */
-/* ============INDEX MOBILE============ */
-.h2-main {
-  background-color: #95b3ca;
-  text-align: center;
-  color: #000000;
-  margin-top: 10px;
-  padding: 10px;
-  letter-spacing: 3px;
-}
-
-/* ============INDEX GALERY============ */
 /* ============GALERY MOBILE============ */
 .conteiner-galery {
   padding: 1em;
@@ -204,7 +202,7 @@ header .header-nav-link {
   }
 }
 /* ============GALERY DESKTOP============ */
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   main {
     height: 100%;
     width: 100%;
@@ -312,7 +310,7 @@ article .conteiner-option {
   }
 }
 /* ============US DESKTOP============ */
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .articule-paragraph {
     max-width: 1200px;
   }
