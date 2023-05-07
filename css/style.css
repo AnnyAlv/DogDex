@@ -10,9 +10,6 @@
 
 body {
   background-color: #8aa5bc;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -27,6 +24,13 @@ footer {
   background-color: #95b3ca;
   color: #ffffff;
 }
+footer .instagram-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8em;
+  text-align: center;
+}
 
 .h2-footer {
   margin-top: 10px;
@@ -37,7 +41,7 @@ footer {
 }
 
 .link-footer {
-  padding: 20px;
+  padding: 7px;
 }
 
 .conteiner-footer {
@@ -47,8 +51,18 @@ footer {
   justify-content: center;
 }
 
+/* ============FOOTER TABLET============ */
+@media (min-width: 600px) {
+  footer .instagram-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1em;
+    text-align: center;
+  }
+}
 /* ============FOOTER DESKTOP============ */
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .ig {
     width: 60px;
     height: 60px;
@@ -103,7 +117,7 @@ header .header-nav-link {
   }
 }
 /* ============HEADER DESKTOP============ */
-@media (min-width: 1025px) and (max-width: 1200px) {
+@media (min-width: 1024px) and (max-width: 1200px) {
   .header-nav {
     padding: 0.5em;
   }
@@ -178,6 +192,7 @@ header .header-nav-link {
   width: 100%;
   height: 400px;
   border: solid 5px #c9d8e5;
+  object-fit: cover;
 }
 
 .title-articule {
@@ -291,6 +306,7 @@ article .conteiner-option {
   height: 350px;
   border-radius: 10px;
   border: solid 5px #c9d8e5;
+  object-fit: cover;
 }
 
 .us-img {
@@ -382,7 +398,7 @@ article .conteiner-option {
   }
 }
 /* ============CONTACT DESKTOP============ */
-@media (min-width: 600px) {
+@media (min-width: 1024px) {
   .contact-main-box {
     max-width: 900px;
   }
@@ -400,7 +416,7 @@ article .conteiner-option {
   justify-content: center;
 }
 .front-img {
-  width: 90%;
+  width: 80%;
   height: 350px;
   border-radius: 50px;
 }
@@ -430,6 +446,7 @@ article .conteiner-option {
   height: 200px;
   border: solid 5px #c9d8e5;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .title-card {

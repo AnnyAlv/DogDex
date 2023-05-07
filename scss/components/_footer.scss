@@ -8,6 +8,14 @@
 footer {
     background-color: #95b3ca;
     color: $font-color;
+
+    .instagram-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: .8em;
+        text-align: center;
+    }
 }
 
 .h2-footer {
@@ -19,7 +27,7 @@ footer {
 }
 
 .link-footer {
-    padding: 20px;
+    padding: 7px;
 }
 
 .conteiner-footer {
@@ -29,8 +37,23 @@ footer {
     justify-content: center;
 }
 
+/* ============FOOTER TABLET============ */
+@media (min-width:$MQ-medium) {
+
+    footer {
+        .instagram-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 1em;
+            text-align: center;
+        }
+
+    }
+}
+
 /* ============FOOTER DESKTOP============ */
-@media (min-width: 1025px) {
+@media (min-width:$MQ-large) {
     .ig {
         width: 60px;
         height: 60px;

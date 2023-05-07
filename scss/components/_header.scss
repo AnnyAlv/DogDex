@@ -32,7 +32,7 @@ header {
 }
 
 /* ============HEADER TABLET============ */
-@media (min-width: 600px) {
+@media (min-width:$MQ-medium) {
     header {
         display: flex;
         justify-content: space-between;
@@ -55,7 +55,7 @@ header {
 }
 
 /* ============HEADER DESKTOP============ */
-@media (min-width: 1025px) and (max-width: 1200px) {
+@media (min-width:$MQ-large) and (max-width: 1200px) {
     .header-nav {
         padding: 0.5em;
 
