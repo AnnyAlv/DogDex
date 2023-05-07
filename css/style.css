@@ -59,11 +59,15 @@ footer .instagram-box {
     align-items: center;
     font-size: 1em;
     text-align: center;
+    padding: 1em;
   }
 }
 /* ============FOOTER DESKTOP============ */
 @media (min-width: 1024px) {
-  .ig {
+  footer .instagram-box {
+    padding: 1.5em;
+  }
+  footer .ig {
     width: 60px;
     height: 60px;
   }
